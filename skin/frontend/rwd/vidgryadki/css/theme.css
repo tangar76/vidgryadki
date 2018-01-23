@@ -1,0 +1,13 @@
+.slick-slide img {
+    margin: 0 auto;
+}
+.slick-slider .slick-slide {
+    padding: 0;
+    overflow: hidden;
+}
+
+@media (max-width: 768px ) {
+    .slick-slide img {
+        width: 100%;
+    }
+}
