@@ -7,5 +7,17 @@
                 <name>css/theme.css</name>
             </action>
         </reference>
+        <reference name="footer_links2">
+            <action method="removeLinkByUrl">
+                <url helper="customer/getAccountUrl" />
+            </action>
+            <action method="addLink" translate="label title" module="customer">
+                <label>My Account</label>
+                <url helper="customer/getAccountUrl" />
+                <title>My Account</title>
+                <urlParams/>
+                <position>-10</position>
+            </action>
+        </reference>
     </default>
 </layout>
