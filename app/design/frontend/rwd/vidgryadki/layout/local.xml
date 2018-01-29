@@ -28,6 +28,12 @@
             </action>
         </reference>
 
+        <reference name="footer">
+            <action method="unsetChild">
+                <name>newsletter</name>
+            </action>
+        </reference>
+
         <reference name="footer_links2">
             <action method="removeLinkByUrl">
                 <url helper="customer/getAccountUrl" />
