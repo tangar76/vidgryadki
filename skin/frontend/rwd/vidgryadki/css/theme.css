@@ -1,3 +1,7 @@
+.block-title {
+    border: none;
+}
+
 .slick-slide img {
     margin: 0 auto;
 }
@@ -10,4 +14,9 @@
     .slick-slide img {
         width: 100%;
     }
+}
+
+/* HEADER */
+.header-language-background {
+    padding: 0 10px;
 }

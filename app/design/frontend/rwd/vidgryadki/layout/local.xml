@@ -1,12 +1,33 @@
 <?xml version="1.0" ?>
 <layout>
+
     <default>
+
         <reference name="head">
+            <!-- remove items with condition -->
+            <action method="removeItem">
+                <type>skin_css</type>
+                <name>css/styles.css</name>
+            </action>
+            <action method="removeItem">
+                <type>skin_css</type>
+                <name>css/madisonisland.css</name>
+            </action>
+            <!-- add items simply -->
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/styles.css</name>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>css/madisonisland.css</name>
+            </action>
             <action method="addItem">
                 <type>skin_css</type>
                 <name>css/theme.css</name>
             </action>
         </reference>
+
         <reference name="footer_links2">
             <action method="removeLinkByUrl">
                 <url helper="customer/getAccountUrl" />
@@ -19,5 +40,7 @@
                 <position>-10</position>
             </action>
         </reference>
+
     </default>
+
 </layout>
