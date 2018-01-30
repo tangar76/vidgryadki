@@ -1,6 +1,11 @@
-/* FONT */
+/* FONT FAMILY */
+body, button, input, select, table, textarea {
+    font-family: "Helve tica Neue", Verdana, Arial, sans-serif;
+}
+
 h1,
 .h1,
+.header-minicart .block-subtitle,
 .nav-primary a,
 .breadcrumbs li,
 .footer,
@@ -32,11 +37,12 @@ label,
     background-color: #4f5444;
 }
 
-/* TEXT COLOR */
+/* TEXT COLOR FOR BUTTONS AND LINKS */
 a,
 .block-title h2,
 .block-title h3,
 .block-title strong,
+.header-minicart .block-subtitle,
 .footer .block-title,
 .footer address,
 /* product listing*/
@@ -70,4 +76,3 @@ a:hover,
         color: #7eb701;
     }
 }
-
