@@ -28,6 +28,10 @@
             </action>
             <action method="addItem">
                 <type>skin_css</type>
+                <name>css/colors.css</name>
+            </action>
+            <action method="addItem">
+                <type>skin_css</type>
                 <name>css/theme.css</name>
             </action>
         </reference>

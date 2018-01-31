@@ -5,6 +5,7 @@ body, button, input, select, table, textarea {
 
 h1,
 .h1,
+.data-table th,
 .header-minicart .block-subtitle,
 .nav-primary a,
 .breadcrumbs li,
@@ -13,66 +14,11 @@ h1,
 label,
 .block-title h2,
 .block-title h3,
-.block-title strong {
+.block-title strong,
+#search {
     font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
 }
 
-/* BACKGROUND COLOR */
-.header-language-background {
-    background-color: #7eb701;
-}
-
-/* buttons */
-.button,
-.cart-table .product-cart-actions .button,
-#co-shipping-method-form .buttons-set .button,
-.footer .button {
-    background-color: #7eb701;
-}
-
-.button:hover,
-.cart-table .product-cart-actions .button:hover,
-#co-shipping-method-form .buttons-set .button:hover,
-.footer .button:hover {
-    background-color: #4f5444;
-}
-
-/* TEXT COLOR FOR BUTTONS AND LINKS */
-a,
-.block-title h2,
-.block-title h3,
-.block-title strong,
-.header-minicart .block-subtitle,
-.footer .block-title,
-.footer address,
-/* product listing*/
-.price-box .price,
-/* product page*/
-.product-view .product-shop .product-name .h1,
-.product-view .product-img-box .product-name h1,
-.product-view .product-shop .price-box .regular-price .price,
-.product-view .product-shop .price-box .special-price .price,
-.product-view .product-shop .price-box .full-product-price .price,
-/* hover */
-a:hover,
-#header-account a:hover,
-.breadcrumbs a:hover,
-.footer .links a:hover {
-    color: #7eb701;
-}
-
-.availability.in-stock {
-    color: #474746;
-}
-
-.no-touch .product-image:hover {
-    border-color: #7eb701;
-}
-
-@media only screen and (min-width: 771px) {
-    .skip-cart,
-    .nav-primary a:hover,
-    .nav-primary li:hover > a {
-        color: #7eb701;
-    }
+.product-collateral > dl > dt {
+    font-family: "Helve tica Neue", Verdana, Arial, sans-serif;
 }

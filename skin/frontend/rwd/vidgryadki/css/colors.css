@@ -1,0 +1,102 @@
+/* BACKGROUND COLOR */
+.header-language-background {
+    background-color: #7eb701;
+}
+
+/* buttons */
+.button,
+.cart-table .product-cart-actions .button,
+#co-shipping-method-form .buttons-set .button,
+.footer .button {
+    background-color: #7eb701;
+}
+
+.button:hover,
+.cart-table .product-cart-actions .button:hover,
+#co-shipping-method-form .buttons-set .button:hover,
+.footer .button:hover {
+    background-color: #4f5444;
+}
+
+.toolbar,
+.block-layered-nav .block-content > dl > dt {
+    background-color: #f3f4ef;
+}
+
+@media only screen and (min-width: 771px) {
+    .nav-primary li.level0 ul,
+    .product-collateral .toggle-tabs {
+        background-color: #f3f4ef;
+    }
+}
+
+/* TEXT COLOR FOR BUTTONS AND LINKS */
+a,
+.block-title h2,
+.block-title h3,
+.block-title strong,
+.header-minicart .block-subtitle,
+.footer .block-title,
+.footer address,
+/* product listing*/
+.price-box .price,
+/* product page*/
+.product-view .product-shop .product-name .h1,
+.product-view .product-img-box .product-name h1,
+.product-view .product-shop .price-box .regular-price .price,
+.product-view .product-shop .price-box .special-price .price,
+.product-view .product-shop .price-box .full-product-price .price,
+.product-collateral .toggle-tabs li.current span,
+/* hover */
+a:hover,
+#header-account a:hover,
+.breadcrumbs a:hover,
+.footer .links a:hover,
+/* product listing */
+h2.product-name a:hover,
+h3.product-name a:hover,
+h4.product-name a:hover,
+h5.product-name a:hover,
+p.product-name a:hover,
+/* product page */
+.product-collateral > dl > dt:hover,
+.product-collateral .toggle-tabs li:hover span {
+    color: #7eb701;
+}
+
+.product-collateral > dl > dt:after {
+    border-left-color: #7eb701;
+}
+
+.product-collateral.accordion-open > dl > dt.current:after {
+    border-top-color: #7eb701;
+}
+
+
+.availability.in-stock {
+    color: #0b0c09;
+}
+
+.no-touch .product-image:hover {
+    border-color: #7eb701;
+}
+
+@media only screen and (min-width: 771px) {
+    .skip-cart,
+    .nav-primary a:hover,
+    .nav-primary li:hover > a {
+        color: #7eb701;
+    }
+}
+
+.input-text:focus {
+    border-color: #7eb701;
+    outline-color: #7eb701;
+}
+
+@media only screen and (max-width: 770px) {
+    .nav-primary li.menu-active > a,
+    .nav-primary li.sub-menu-active > a {
+        color: #7eb701;
+    }
+}
