@@ -14,7 +14,11 @@
 .button:hover,
 .cart-table .product-cart-actions .button:hover,
 #co-shipping-method-form .buttons-set .button:hover,
-.footer .button:hover {
+.footer .button:hover,
+.button:focus,
+.cart-table .product-cart-actions .button:focus,
+#co-shipping-method-form .buttons-set .button:focus,
+.footer .button:focus {
     background-color: #4f5444;
 }
 
@@ -40,6 +44,7 @@ a,
 .footer address,
 /* product listing*/
 .price-box .price,
+.pages a,
 /* product page*/
 .product-view .product-shop .product-name .h1,
 .product-view .product-img-box .product-name h1,
@@ -47,6 +52,10 @@ a,
 .product-view .product-shop .price-box .special-price .price,
 .product-view .product-shop .price-box .full-product-price .price,
 .product-collateral .toggle-tabs li.current span,
+/* minicart */
+.header-minicart .product-details .product-name a,
+.header-minicart .info-wrapper td,
+.header-minicart .subtotal .price,
 /* hover */
 a:hover,
 #header-account a:hover,
@@ -64,6 +73,21 @@ p.product-name a:hover,
     color: #7eb701;
 }
 
+.pages .next:hover,
+.pages .previous:hover {
+    border-color: #7eb701;
+}
+
+.pages .next::before,
+.pages .next:hover::before {
+    border-left-color: #7eb701;
+}
+
+.pages .previous::before,
+.pages .previous:hover::before {
+    border-right-color: #7eb701;
+}
+
 .product-collateral > dl > dt:after {
     border-left-color: #7eb701;
 }
@@ -72,6 +96,9 @@ p.product-name a:hover,
     border-top-color: #7eb701;
 }
 
+.header-minicart .subtotal .label {
+    color: #474746;
+}
 
 .availability.in-stock {
     color: #0b0c09;
@@ -83,6 +110,8 @@ p.product-name a:hover,
 
 @media only screen and (min-width: 771px) {
     .skip-cart,
+    .skip-cart .count,
+    .skip-link.skip-active .count,
     .nav-primary a:hover,
     .nav-primary li:hover > a {
         color: #7eb701;

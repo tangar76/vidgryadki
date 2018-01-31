@@ -19,6 +19,11 @@ label,
     font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
 }
 
+.products-grid .product-name,
+.products-list .product-name {
+    font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
+}
+
 .product-collateral > dl > dt {
     font-family: "Helve tica Neue", Verdana, Arial, sans-serif;
 }
