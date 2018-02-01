@@ -57,4 +57,12 @@
 
     </default>
 
+    <catalog_category_default>
+        <update handle="page_two_columns_left" />
+    </catalog_category_default>
+
+    <catalog_category_layered>
+        <update handle="page_two_columns_left" />
+    </catalog_category_layered>
+
 </layout>
