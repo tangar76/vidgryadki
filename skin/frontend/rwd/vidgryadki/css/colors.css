@@ -132,4 +132,24 @@ p.product-name a:hover,
     .nav-primary li.sub-menu-active > a {
         color: #7eb701;
     }
+
+    .block-layered-nav .block-content > dl > dt:hover {
+        color: #7eb701;
+    }
+
+    .block-layered-nav .block-subtitle--filter {
+        background-color: #7eb701;
+    }
+
+    .block-layered-nav .block-subtitle--filter:hover {
+        background-color: #4f5444;
+    }
+
+    .block-layered-nav .block-content > dl > dt:after {
+        border-left-color: #7eb701;
+    }
+
+    .block-layered-nav .block-content.accordion-open > dl > dt.current:after {
+        border-top-color: #7eb701;
+    }
 }
