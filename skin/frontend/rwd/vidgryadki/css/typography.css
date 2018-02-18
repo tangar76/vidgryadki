@@ -3,8 +3,8 @@ body, button, input, select, table, textarea {
     font-family: "Helve tica Neue", Verdana, Arial, sans-serif;
 }
 
-h1,
-.h1,
+h1, .h1,
+h2, .h2,
 .data-table th,
 .header-minicart .block-subtitle,
 .header-language-container,
@@ -17,6 +17,8 @@ label,
 .block-title h2,
 .block-title h3,
 .block-title strong,
+.button2 span,
+.button2 span span,
 #search {
     font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
 }

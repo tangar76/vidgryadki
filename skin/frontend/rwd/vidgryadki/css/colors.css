@@ -1,6 +1,14 @@
 /* BACKGROUND COLOR */
-.header-language-background {
+.header-language-background,
+/* checkout page */
+.opc .section .step-title .number,
+.opc .section.allow.active .step-title .number,
+.no-touch .opc .section.allow:hover .step-title .number {
     background-color: #7eb701;
+}
+
+.opc .section.allow .step-title .number {
+    background-color: #4f5444;
 }
 
 /* buttons */
@@ -25,10 +33,6 @@
 .toolbar,
 .block-layered-nav .block-content > dl > dt {
     background-color: #f3f4ef;
-}
-
-.skip-cart .count {
-    background-color: #7eb701;
 }
 
 @media only screen and (min-width: 771px) {
@@ -60,6 +64,9 @@ a,
 .header-minicart .product-details .product-name a,
 .header-minicart .info-wrapper td,
 .header-minicart .subtotal .price,
+/* checkout page */
+.opc .section.allow .step-title:hover h2,
+.opc .section.active .step-title h2,
 /* hover */
 a:hover,
 #header-account a:hover,
@@ -112,6 +119,17 @@ p.product-name a:hover,
     border-color: #7eb701;
 }
 
+/* alternative button */
+.button2 span,
+.button2 span span {
+    color: #4f5444;
+}
+
+.button2 span:hover,
+.button2 span span:hover {
+    color: #7eb701;
+}
+
 @media only screen and (min-width: 771px) {
     .skip-cart,
     .skip-cart .count,
@@ -131,6 +149,10 @@ p.product-name a:hover,
     .nav-primary li.menu-active > a,
     .nav-primary li.sub-menu-active > a {
         color: #7eb701;
+    }
+
+    .skip-cart .count {
+        background-color: #7eb701;
     }
 
     .block-layered-nav .block-content > dl > dt:hover {
