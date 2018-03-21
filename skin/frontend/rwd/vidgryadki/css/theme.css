@@ -107,3 +107,12 @@
 .header-language-background {
     padding: 0 10px;
 }
+
+.footer-container .footer {
+    background-image: url('../images/grass-1280.png');
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center 0;
+    border-top: none;
+    padding-top: 150px;
+}
